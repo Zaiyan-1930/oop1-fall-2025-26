@@ -27,13 +27,13 @@ public class MortgageCalculator {
       if (scanner.hasNextInt()) {
         int salary = scanner.nextInt();
 
-        if (salary >= 100000) {
-          System.out.println("You are eligible for the loan");
+               if (salary >= 100000) {
+               System.out.println("You are eligible for the loan");
 
-        } else {
-          System.out.println("Sorry, you are not eligible for the loan");
-        }
-        break;
+                } else {
+                System.out.println("Sorry, you are not eligible for the loan");
+                }
+               break;
 
       } else {
         System.out.println("Invalid! , enter correct numeric value");
@@ -46,13 +46,13 @@ public class MortgageCalculator {
       if (scanner.hasNextDouble()) {
         double creditScore = scanner.nextDouble();
 
-        if (creditScore >= 500) {
-          System.out.println("Enter your credit score (0-500) ");
+                 if (creditScore >= 500) {
+                 System.out.println("Enter your credit score (0-500) ");
 
-        } else {
-          System.out.println("Sorry, you have a very low credit score");
-        }
-        break;
+                 } else {
+                  System.out.println("Sorry, you have a very low credit score");
+                 }
+                 break;
 
       } else {
         System.out.println("Invalid! , enter correct numeric value");
@@ -66,13 +66,13 @@ public class MortgageCalculator {
       if (scanner.hasNextBoolean()) {
         boolean hasCrimeRecord = scanner.nextBoolean();
 
-        if (!hasCrimeRecord) {
-          System.out.println("Great!, you are eligible for the loan");
+                 if (!hasCrimeRecord) {
+                  System.out.println("Great!, you are eligible for the loan");
 
-        } else {
-          System.out.println("Sorry, you have a criminal record");
-        }
-        break;
+                  } else {
+                  System.out.println("Sorry, you have a criminal record");
+                  }
+                 break;
 
       } else {
         System.out.println("Invalid! , enter either true or false");
