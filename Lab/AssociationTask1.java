@@ -69,7 +69,7 @@ class School {
     }
 }
 
-public class SchoolStudentRelationship {
+public class AssociationTask1 {
     public static void main(String[] args) {
         System.out.println("SCHOOL WITH MANY STUDENTS:");
         
